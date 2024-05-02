@@ -2,9 +2,17 @@ Here's a template for a README file that includes setup and run instructions, AP
 
 
 
-# Project Name
+# Backend for a Real-Time Chat Application
 
-Description of the project.
+Develop a comprehensive backend for a real-time chat application using the MERN
+stack, emphasizing the use of Node.js and MongoDB for server-side logic and
+database management. This assignment is designed to test your ability to manage
+real-time data exchange, database schema design, user authentication, and
+server-side logic, including integration with third-party APIs for language processing.
+
+
+
+
 
 ## Setup and Run Instructions
 
