@@ -1,7 +1,5 @@
 const express=require('express');
 const database = require('./db');
-const http = require('http');
-const chatbot=require("./controllers/Gemini");
 var cors = require('cors');
 const bodyParser = require('body-parser');
 const initializeSocketServer = require('./socketServer');

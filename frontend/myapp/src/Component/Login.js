@@ -17,8 +17,7 @@ const onsubmit= async(e)=>{
   e.preventDefault();
 
   const response= await login(credentials);
-  console.log(response);
-  if(response.success===true){  
+  if(response.success==true){  
     localStorage.setItem("user",response.userID);
     navigate("/dashboard");
   }

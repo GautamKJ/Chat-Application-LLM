@@ -28,18 +28,10 @@ async function run(prompt) {
     // Execute the generateContent call and handle the response
     const result = await Promise.race([generatePromise, timeoutPromise]);
 
-    
-
-    
-    if (!result.text) {
       const response = await result.response;
       const text = await response.text();
       return text;
-    }
-    else
-    {
-      return "User is unavailable at the moment";  
-    } 
+    
   } catch (error) {
     console.error("Error generating content:", error);
     return "User is unavailable at the moment";
