@@ -3,6 +3,7 @@ const database = require('./db');
 var cors = require('cors');
 const bodyParser = require('body-parser');
 const initializeSocketServer = require('./socketServer');
+const path=require('path');
 
 const app = express();
 app.use(bodyParser.json());
