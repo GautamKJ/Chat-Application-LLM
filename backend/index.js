@@ -23,6 +23,8 @@ app.use("/api/user",require("./routes/user"));
 app.use("/api/",require("./routes/chat"));
 app.use("/api/message",require("./routes/message"));
 
+app.use(express.static(path.join(__dirname,  'build')));
+
 
 app.listen(PORT, function () {
  
