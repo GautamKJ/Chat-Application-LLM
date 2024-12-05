@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:5000/api';
+const baseURL = 'https://chat-application-llm.onrender.com/api';
 
 export const getMessages = async (id) => {
     try {

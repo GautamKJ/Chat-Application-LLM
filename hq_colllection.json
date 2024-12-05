@@ -21,7 +21,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/user/register",
+					"raw": "https://chat-application-llm.onrender.com/api/user/register",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -51,7 +51,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/user/login",
+					"raw": "https://chat-application-llm.onrender.com/api/user/login",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -81,7 +81,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/",
+					"raw": "https://chat-application-llm.onrender.com/api/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -101,7 +101,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/",
+					"raw": "https://chat-application-llm.onrender.com/api/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -121,7 +121,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/find/66314a299d029ef470d82649/6631531679ea6e33cbd39dbd",
+					"raw": "https://chat-application-llm.onrender.com/api/find/66314a299d029ef470d82649/6631531679ea6e33cbd39dbd",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -152,7 +152,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/message",
+					"raw": "https://chat-application-llm.onrender.com/api/message",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -172,7 +172,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/message/66320670a02f3f7c7691ebdc",
+					"raw": "https://chat-application-llm.onrender.com/api/message/66320670a02f3f7c7691ebdc",
 					"protocol": "http",
 					"host": [
 						"localhost"

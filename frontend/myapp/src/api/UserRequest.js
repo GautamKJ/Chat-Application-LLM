@@ -1,6 +1,6 @@
 export const getUser = async () => {
   try {
-      const response = await fetch('http://localhost:5000/api/user/users');
+      const response = await fetch('https://chat-application-llm.onrender.com/api/user/users');
       if (!response.ok) {
           throw new Error('Failed to fetch user data');
       }
@@ -15,7 +15,7 @@ export const getUser = async () => {
 
 export const login = async (data) => {
     try {
-        const response = await fetch('http://localhost:5000/api/user/login', {
+        const response = await fetch('https://chat-application-llm.onrender.com/api/user/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

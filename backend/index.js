@@ -15,6 +15,9 @@ const PORT= process.env.PORT || 5000;
 app.use(cors());
 
 database();
+app.get('/',(req,res)=>{
+    res.send("Server is working");
+})
 
 app.use("/api/user",require("./routes/user"));
 app.use("/api/",require("./routes/chat"));

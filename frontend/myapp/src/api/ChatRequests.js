@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:5000';
+const baseURL = 'https://chat-application-llm.onrender.com';
 
 
 export const findChat = async (firstId, secondId) => {
