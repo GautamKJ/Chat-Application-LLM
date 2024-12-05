@@ -1,11 +1,11 @@
 const MessageModel =require("./modals/Message");
 const chatbot=require("./controllers/Gemini");
 
-
+const PORT = process.env.PORT || 8000;
 function initializeSocketServer() {
-  const io = require("socket.io")(8000, {
+  const io = require("socket.io")(PORT, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: ["http://localhost:3000", "https://gauship-room.netlify.app"],
     },
   });
   

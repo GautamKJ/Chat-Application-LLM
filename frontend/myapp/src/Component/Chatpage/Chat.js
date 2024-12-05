@@ -21,7 +21,11 @@ const ChatBox = () => {
 
 useEffect(() => {
 
-    socket.current=io('http://localhost:8000');
+//     socket.current=io('https://chat-application-llm.onrender.com');
+    socket.current = io("https://chat-application-llm.onrender.com", {
+      path: "/socket.io",
+      transports: ["websocket"],
+    });
     socket.current.emit('new-user-add',userID);
   
 
